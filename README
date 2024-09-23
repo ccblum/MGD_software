@@ -1,0 +1,14 @@
+This software package contains three different programs for producing solutions to the so-called Minimum Global Domination problem, which is an NP-hard combinatorial optimization problem.
+
+You will need a rather recent version of the GCC compiler for C++ installed on your system for compiling the software. Moreover, you will need ILOG CPLEX installed on your system. Before calling the compiler executing 'make', you also have to change 2 paths in the file 'Makefile' such that your system knows were to find the CPLEX installation. 
+
+Examples for executing the three programs:
+
+./greedy -i <instance_file_name>    -> executes a simple greedy heuristic
+./cplex -i <instance_file_name> -t <time_limit_in_seconds>
+./cmsa -i <instance_file_name> -t <time_limit_in_seconds> 
+
+Note that the CMSA algorithm has a series of parameters. You find them looking at the pseudo-code 'cmsa.cpp'. All of them have a preset value, but you can also change them by means of command line options (have a look at the code).
+
+In case of question, please contact christian.blum@iiia.csic.es
+
