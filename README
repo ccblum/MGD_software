@@ -10,5 +10,7 @@ Examples for executing the three programs:
 
 Note that the CMSA algorithm has a series of parameters. You find them looking at the pseudo-code 'cmsa.cpp'. All of them have a preset value, but you can also change them by means of command line options (have a look at the code).
 
+Problem instances of the MGD problem can be downloaded from https://www.dropbox.com/scl/fi/lurm6cym6jqohjumyouis/all_instances.tgz?rlkey=wlal442z1trh6wkxwc8tgrdtu&st=wzgmzd0f&dl=0
+
 In case of question, please contact christian.blum@iiia.csic.es
 
